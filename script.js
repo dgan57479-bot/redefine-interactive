@@ -18,8 +18,7 @@ const chapters = {
   4: { file: 'videos/video-04.mp4', title: 'The Next Moment', route: 'DON’T CONTACT', hint: 'Continue watching the story.' },
   5: { file: 'videos/video-05.mp4', title: 'The Next Moment', route: 'CONTACT', hint: 'Continue watching the story.' },
   6: { file: 'videos/video-06.mp4', title: 'Before We Meet Again', route: 'CONTACT', hint: 'One more moment before both paths meet.' },
-  7: {file: 'https://res.cloudinary.com/pyeqnlpa/video/upload/f_mp4,vc_h264/video-07', title: 'What Remains',, title: 'What Remains', route: 'SAME DESTINATION', hint: 'Different paths lead to this shared ending.' }
-};
+  7: { file: 'https://res.cloudinary.com/pyeqnlpa/video/upload/f_mp4,vc_h264/video-07', title: 'What Remains',title: 'What Remains', route: 'SAME DESTINATION', hint: 'Different paths lead to this shared ending.' } 
 
 let currentChapter = 1;
 let videoFinished = false;
